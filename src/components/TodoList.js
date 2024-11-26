@@ -32,7 +32,7 @@ export default function TodoList() {
 
    const getTodo = async() => {
     try {
-        const response = await axios.get('http://localhost:8000/todo',
+        const response = await axios.get('https://signlogtodoback.onrender.com/todo',
            {withCredentials : true},
         )
 
